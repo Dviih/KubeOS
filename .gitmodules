@@ -1,0 +1,10 @@
+[submodule "linux"]
+	path = linux
+	url = https://github.com/gregkh/linux
+	branch = linux-rolling-lts
+[submodule "linux/"]
+	branch = linux-rolling-lts
+[submodule "busybox"]
+	path = busybox
+	url = https://github.com/mirror/busybox/
+	branch = 1_35_stable
