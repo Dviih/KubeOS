@@ -1,6 +1,0 @@
-[submodule "linux"]
-	path = linux
-	url = https://github.com/gregkh/linux
-	branch = linux-rolling-lts
-[submodule "linux/"]
-	branch = linux-rolling-lts
