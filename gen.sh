@@ -37,6 +37,7 @@ cd ..
 
 curl -L $SYSLINUX_URI -o syslinux.tar.gz
 tar -xaf syslinux.tar.gz
+mv syslinux-* syslinux
 cp vmlinuz initrd.img iso/
 cp syslinux/bios/core/isolinux.bin syslinux/bios/com32/elflink/ldlinux/ldlinux.c32 iso/isolinux
 mkisofs -o kubeos.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table iso/
